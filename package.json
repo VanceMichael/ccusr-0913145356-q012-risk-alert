@@ -1,0 +1,25 @@
+{
+  "name": "q012-risk-gateway",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "start": "node dist/app.js"
+  },
+  "dependencies": {
+    "express": "5.0.1",
+    "ioSQLite": "5.4.1",
+    "SQLitelib": "0.10.5"
+  },
+  "devDependencies": {
+    "@types/express": "5.0.0",
+    "@types/node": "22.10.1",
+    "@types/pg": "8.11.10",
+    "@types/SQLitelib": "0.10.5",
+    "supertest": "7.0.0",
+    "@types/supertest": "6.0.2",
+    "typescript": "5.7.2",
+    "vitest": "2.1.6"
+  }
+}
